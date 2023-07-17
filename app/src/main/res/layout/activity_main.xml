@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#800080"
+    android:paddingRight="16.00dp"
+    android:paddingLeft="16.00dp"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="166dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="4dp"
+        app:cardCornerRadius="12.00dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView1"
+        app:layout_constraintVertical_bias="0.13">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:drawableTop="@drawable/ic_message"
+            android:drawableTint="@color/teal_200"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Information" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="166dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="12.00dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardView3"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView4"
+        app:layout_constraintVertical_bias="0.13">
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:drawableTop="@android:drawable/ic_menu_mapmode"
+            android:drawableTint="@color/teal_200"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Maps" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="166dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="4dp"
+        app:cardCornerRadius="12.00dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:drawableTop="@drawable/ic_about"
+            android:drawableTint="@color/teal_200"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="About" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="166dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="116dp"
+        android:background="#9370DB"
+        app:cardCornerRadius="12.00dp"
+        app:layout_constraintEnd_toStartOf="@+id/cardView1"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:drawableTop="@drawable/ic_home"
+            android:drawableTint="@color/teal_200"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Home" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="166dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:background="#9370DB"
+        app:cardCornerRadius="12.00dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        app:layout_constraintVertical_bias="0.258">
+
+        <TextView
+            android:id="@+id/LogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:drawableTop="@drawable/log_out"
+            android:drawableTint="@color/teal_200"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="LogOut" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

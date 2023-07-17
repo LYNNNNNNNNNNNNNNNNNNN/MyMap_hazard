@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HazardTrack</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="api_key">5a96d6ad5af94337a4949d128c76f7cb</string>
+    <string name="news_error">No News Found, Please try again later</string>
+    <string name="hyperlink">Copyright ©️ 2022 RCS2405A CS240. All rights reserved.</string>
+
+
+    <string name="polis">Polis Diraja Malaysia Persiaran Jubli Emas 01000 Kangar, Perlis
+                        (04-9872222) <br>  Polis Diraja Malaysia Jalan Stadium 05560 Alor Setar, Kedah
+                        (04-7741222)</br></string>
+    <string name="jpam">Perak Civil Defense State Office, 30350 Ipoh, Perak <br>(05-527 8715)<br>
+                        Perlis Civil Defense State Office, Lot 8337, 262, 01000 Kangar, Perlis<br>(04-977 7991)</br></br></br></string>
+
+    <string name="bomba">Jabatan Bomba Dan Penyelamat Negeri Kedah, Jalan Suka Menanti, 05150 Alor Setar, Kedah
+                        <br>(04 - 733 3444)<br>Jabatan Bomba Dan Penyelamat Negeri Pulau Pinang, Jalan Batu Kawan,14100 Simpang Ampat, Pulau Pinang<br>
+                        (04 - 5047222)</br></br></br></string>
+    <string name="map_content_description" />
+
+</resources>
