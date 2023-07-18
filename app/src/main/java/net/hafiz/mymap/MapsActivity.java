@@ -38,7 +38,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     LatLng hazard;
     Vector<MarkerOptions> markerOptions;
 
-    private String URL = "http://192.168.0.173/serverside/data.php";
+    private String URL = "http://192.168.0.173/comments/data.php";
     RequestQueue requestQueue;
     Gson gson;
     Maklumat[] maklumats;

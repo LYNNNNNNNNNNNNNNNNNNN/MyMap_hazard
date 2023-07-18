@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#800080"
+    android:background="@drawable/backgroundict620"
     android:paddingRight="16.00dp"
     android:paddingLeft="16.00dp"
     tools:context=".MainActivity">
@@ -13,6 +13,7 @@
         android:id="@+id/cardView3"
         android:layout_width="166dp"
         android:layout_height="150dp"
+        android:layout_marginTop="9dp"
         android:layout_marginEnd="4dp"
         app:cardCornerRadius="12.00dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,13 +28,15 @@
             android:drawableTop="@drawable/ic_message"
             android:drawableTint="@color/teal_200"
             android:gravity="center_horizontal|center_vertical"
-            android:text="Information" />
+            android:text="Enter Report" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
         android:layout_width="166dp"
         android:layout_height="150dp"
+        android:layout_marginTop="9dp"
+
         app:cardCornerRadius="12.00dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cardView3"
@@ -56,7 +59,7 @@
         android:id="@+id/cardView1"
         android:layout_width="166dp"
         android:layout_height="150dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="90dp"
         android:layout_marginEnd="4dp"
         app:cardCornerRadius="12.00dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +79,7 @@
         android:id="@+id/cardView4"
         android:layout_width="166dp"
         android:layout_height="150dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="90dp"
         android:background="#9370DB"
         app:cardCornerRadius="12.00dp"
         app:layout_constraintEnd_toStartOf="@+id/cardView1"
@@ -89,7 +92,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
-            android:drawableTop="@drawable/ic_home"
+            android:drawableTop="@drawable/baseline_home_24"
             android:drawableTint="@color/teal_200"
             android:gravity="center_horizontal|center_vertical"
             android:text="Home" />
@@ -99,13 +102,14 @@
         android:id="@+id/cardView5"
         android:layout_width="166dp"
         android:layout_height="150dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="9dp"
         android:background="#9370DB"
         app:cardCornerRadius="12.00dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView2"
-        app:layout_constraintVertical_bias="0.258">
+        app:layout_constraintVertical_bias="0.217">
 
         <TextView
             android:id="@+id/LogOut"
